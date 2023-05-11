@@ -13,7 +13,7 @@ export const LS_NAMESPACE = 'SAFE_v2__'
 export const LATEST_SAFE_VERSION = process.env.NEXT_PUBLIC_SAFE_VERSION || '1.3.0'
 
 // Access keys
-export const INFURA_TOKEN = process.env.NEXT_PUBLIC_INFURA_TOKEN || ''
+export const INFURA_TOKEN = process.env.NEXT_PUBLIC_INFURA_TOKEN || 'https://rpc.testnet.lukso.network'
 export const SENTRY_DSN = process.env.NEXT_PUBLIC_SENTRY_DSN || ''
 export const BEAMER_ID = process.env.NEXT_PUBLIC_BEAMER_ID || ''
 

@@ -11,7 +11,7 @@ const formatRpcServiceUrl = ({ authentication, value }: RpcUri, TOKEN: string): 
 }
 
 export const getRpcServiceUrl = (rpcUri: RpcUri): string => {
-  return formatRpcServiceUrl(rpcUri, INFURA_TOKEN)
+  return INFURA_TOKEN
 }
 
 export const createWeb3ReadOnly = (rpcUri: RpcUri, customRpc?: string): JsonRpcProvider => {
